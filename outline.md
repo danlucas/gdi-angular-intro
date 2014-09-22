@@ -10,18 +10,36 @@ Price: $40
 
 - Setting up node and npm
 
+## Prerequisites
+Must know:
+- HTML, CSS, JavaScript, DOM
+
+Helpful:
+Basic Model View Controller info, Testing, TDD, BDD, etc.
+
+Not so much:
+Databases, any other framework (though it works nicely with jQuery)
+
+
 ## Intro
+* Front end framework
 
-- Prerequisites
-- What is / isn't Angular
-- Touching on MVC
+* What is / isn't Angular  
 
-## Hello Angular
+"AngularJS fits the definition of a framework the best, even though it's much more lightweight than a typical framework and that's why many confuse it with a library." (angular faq)
 
-Here we show a little of what angular can do
+* What angular can do and what it's good for
+    * Great making sites fast (some say "responsive" but that's confusing with "responsive design")
+    * Need a dynamic website
+    * Personally like it for organization
+
+## Intro to the app we'll make in class
 
 ## Topics to cover
 
+- Quick Model/View/Controller overview?
+- Modules
+- Expressions
 - Binding
 - Controllers
 - Data between controllers
