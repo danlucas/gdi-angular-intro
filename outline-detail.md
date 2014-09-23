@@ -99,7 +99,3 @@
 [http://campus.codeschool.com/courses/shaping-up-with-angular-js/](http://campus.codeschool.com/courses/shaping-up-with-angular-js/)
 [https://egghead.io/](https://egghead.io/)
 [https://docs.angularjs.org/api](https://docs.angularjs.org/api)
-
-## Thanks
-
-GDI
