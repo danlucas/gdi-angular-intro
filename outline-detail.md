@@ -1,34 +1,6 @@
 # Class Outline
 
-## Class Info
-
-Length: 4 hours (+1 hour to get people set up)
-Location: Spoonflower Greenhouse
-Price: $40
-
-## What we'll do in class
-The general format of the class will be to create a simple front-end application while introducing angular concepts.
-
-## Setup
-
-- Setting up node and npm
-
-## Prerequisites
-Must know:
-- HTML, CSS, JavaScript, DOM
-
-Helpful:
-Basic Model View Controller info, Testing, TDD, BDD, etc.
-
-Not so much:
-Databases, any other framework (though it works nicely with jQuery)
-
-
 ## Intro
-* Front end framework
-
-* What is / isn't Angular  
-
 >"AngularJS is not a library.
 >
 >It doesn't abstract away HTML, CSS, or JavaScript. It doesn't require inheritance from proprietary types. It doesn't use one-way data binding. It doesn't treat testing as an afterthought. It doesn't require boilerplate code. And it's not that complicated.
@@ -48,8 +20,6 @@ Databases, any other framework (though it works nicely with jQuery)
     * Great making sites fast (some say "responsive" but that's confusing with "responsive design")
     * Need a dynamic website
     * Personally like it for organization
-
-## Intro to the app we'll make in class
 
 ## Bootstrapping
 - adding the script tag
@@ -81,9 +51,11 @@ Databases, any other framework (though it works nicely with jQuery)
 ## Directives
 - Mention templates here?
 
-## Scope
 
-## Break
+(Break here?)
+
+## Diving deeper into scope
+
 
 ## Views
 
