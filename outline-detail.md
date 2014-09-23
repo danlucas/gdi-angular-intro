@@ -94,8 +94,8 @@
 
 ## Sources
 
-[https://thinkster.io/angulartutorial/a-better-way-to-learn-angularjs/](https://thinkster.io/angulartutorial/a-better-way-to-learn-angularjs/)
-[http://ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html](http://ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html)
-[http://campus.codeschool.com/courses/shaping-up-with-angular-js/](http://campus.codeschool.com/courses/shaping-up-with-angular-js/)
-[https://egghead.io/](https://egghead.io/)
-[https://docs.angularjs.org/api](https://docs.angularjs.org/api)
+[https://thinkster.io/angulartutorial/a-better-way-to-learn-angularjs/](https://thinkster.io/angulartutorial/a-better-way-to-learn-angularjs/)  
+[http://ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html](http://ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html)  
+[http://campus.codeschool.com/courses/shaping-up-with-angular-js/](http://campus.codeschool.com/courses/shaping-up-with-angular-js/)  
+[https://egghead.io/](https://egghead.io/)  
+[https://docs.angularjs.org/api](https://docs.angularjs.org/api)  
