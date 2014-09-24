@@ -37,9 +37,9 @@
 
 ## Controllers
 - Definition: "Controllers are where we define our app’s behavior by defining functions and values." (codeschool)
-### Data  
-### Adding functions to the scope  
-### The dot  
+### Data
+### Adding functions to the scope
+### The dot
 
 ## Sharing data between controllers (services)
 
@@ -50,45 +50,20 @@
 
 ## Directives
 - Mention templates here?
-- Creating your first directive
-- restrictions
-- behaviors
-- controllers
-- talking between directives
-- transclusions
-- components and containers
-- communication between directive
 
 
 (Break here?)
 
 ## Diving deeper into scope
-- Isolate Scopes
+
 
 ## Views
-- AngularJS - angular.element
-- AngularJS - $index, $event, $log
-- jqLite and jQuery
 
 ## Templates
-- templateUrl
-- $templateCache
 
 ## Routing
-- ng-view
-- The config function
-- $routeProvider api
-- $routeParams
-- redirectTo
-- Promises
-- Resolve
-- Resolve conventions
-- Resolve $routeChangeError
-- Directive for Route Handling
-- Route Life Cycle
 
 ## Putting it all together
-
 ### Alternative structure
 
 
