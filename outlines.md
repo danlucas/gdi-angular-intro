@@ -26,9 +26,10 @@
 - bootstrapping
 - modules
 - expressions
-- working with data
+- *introduction of terms model, view, and controller*
 - controllers
     - attaching controller
+    - working with data (with a little bit binding)
     - displaying data
     - showing/hiding button (directive)
     - ngRepeat(directive)

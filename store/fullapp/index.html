@@ -6,10 +6,11 @@
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 <body>
-<h1>my angular app</h1>
+    <div class="container">
+        <h1>Hi, {{user.name}}</h1>
 
-<div>{{1 + 2}}</div>
-
+        <input type="text" ng-model="user.name" />
+    </div>
 <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 <script type="text/javascript" src="scripts/app.js"></script>
 </body>
