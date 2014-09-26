@@ -31,10 +31,10 @@
     - attaching controller
     - working with data (with a little bit binding)
     - displaying data
+- filters (using date as example)
 - directives
     - showing/hiding button (directive)
     - ngRepeat(directive)
-- filters (using currency as example)
 - images and ngSrc
 - more directives (ng-click and tabs)
 - more controllers
