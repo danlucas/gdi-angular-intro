@@ -31,9 +31,9 @@
     - attaching controller
     - working with data (with a little bit binding)
     - displaying data
+- directives
     - showing/hiding button (directive)
     - ngRepeat(directive)
-- directives
 - filters (using currency as example)
 - images and ngSrc
 - more directives (ng-click and tabs)
