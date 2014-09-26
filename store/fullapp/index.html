@@ -19,7 +19,7 @@
                 {{collection.item.name}}
                 <span class="small">{{collection.item.release | date:'mediumDate'}}</span>
             </h2>
-            <h3>International Gross: ${{collection.item.gross}}<h3>
+            <h3>International Gross: {{collection.item.gross * 1000000 | currency:'$'}}<h3>
             <div>
                 <p>{{collection.item.shortDescription}}</p>
             </div>

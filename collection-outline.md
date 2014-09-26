@@ -1,4 +1,17 @@
-# Creating the Marvel Movie Store App
+# Creating the Marvel Movie Collection App
+
+## What does it do (by steps)
+
+- display item and some data for the item
+- manipulate data with angular filters
+- Display a list of movies and their data
+- build from to allow user to enter in a new item into the collection
+
+
+## What can it do (optional steps)
+
+- filter list of based on user input
+- form validation validation
 
 1. Bootstrapping the application
     - set up a new HTML with angular in a script tag

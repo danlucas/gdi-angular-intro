@@ -4,7 +4,7 @@
     app.controller('UserController', function($scope){
         $scope.user = user;
     });
-    app.controller('CollectionController', function(){
+    app.controller('CollectionController', function($filter){
         this.item = movie;
     });
 
