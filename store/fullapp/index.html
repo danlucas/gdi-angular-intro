@@ -6,10 +6,20 @@
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Hi, {{user.name}}</h1>
+    <div class="container" ng-controller="UserController">
+        <h1>Hi, {{user.name}}.</h1>
+        <h2 class="text-{{user.status}}">Your current status: {{user.user.status}}</h2>
 
-        <input type="text" ng-model="user.name" />
+        <!-- <input type="text" ng-model="store.user.name" /> -->
+        <!-- <input type="text" ng-model="store.user.status" /> -->
+    </div>
+
+    <div class="container" ng-controller="StoreController as store">
+        <div class="row">
+            <h2>{{store.product.name}}</h2>
+            <h3>${{store.product.price}}<h3>
+            <p>{{store.product.description}}</p>
+        </div>
     </div>
 <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 <script type="text/javascript" src="scripts/app.js"></script>
