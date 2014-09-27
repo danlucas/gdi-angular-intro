@@ -14,16 +14,16 @@
     </div>
 
     <div class="container" ng-controller="CollectionController as collection">
-        <div class="row">
+        <div class="row" ng-repeat="item in collection.items">
             <h2>
-                {{collection.item.name}}
-                <span class="small">{{collection.item.release | date:'mediumDate'}}</span>
+                {{item.name}}
+                <span class="small">{{item.release | date:'mediumDate'}}</span>
             </h2>
-            <h3>International Gross: {{collection.item.gross * 1000000 | currency:'$'}}<h3>
+            <h3>International Gross: {{item.gross * 1000000 | currency:'$'}}<h3>
             <div>
-                <p>{{collection.item.shortDescription}}</p>
+                <p>{{item.shortDescription}}</p>
             </div>
-            <h3 class="small text-success text-right" ng-show="{{collection.item.inCollection}}">(In your collection)</h3>
+            <h3 class="small text-success text-right" ng-show="{{item.inCollection}}">(In your collection)</h3>
 
         </div>
     </div>

@@ -35,9 +35,8 @@
 - directives
     - showing/hiding button (directive)
     - ngRepeat(directive)
-- images and ngSrc
-- more directives (ng-click and tabs)
-- more controllers
+      ng-class
+      ng-click(?)
 - forms and ng-model and binding
     - controller to update the model
     - validation
@@ -45,3 +44,4 @@
     - controller for your custom directive
 - Dependencies
 - Services
+- images and ngSrc
