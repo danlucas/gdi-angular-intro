@@ -18,7 +18,7 @@
             gross: 1518.6,
             release: new Date('2012-05-04'),
             inCollection: true,
-            shortDescription: 'Superheros destroy city while fighthing a Norse god and some aliens',
+            shortDescription: 'Superheros destroy city while fighthing a Norse god and some aliens'
         },
         {
             name: "Ironman",
@@ -29,4 +29,9 @@
         }
     ];
 
+    app.filter('capitalize', function(){
+        return function (input) {
+            return input.charAt(0).toUpperCase() + input.slice(1);
+        };
+    });
 })();
