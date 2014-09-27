@@ -1,2 +1,3 @@
 *.sublime-*
 bower_components/
+npm-debug.log

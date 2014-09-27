@@ -7,15 +7,31 @@
     app.controller('CollectionController', function(){
         this.items = movies;
     });
-    app.controller('PanelController', function(){
-        this.tab = 1;
 
-        this.selectTab = function(setTab){
-            this.tab = setTab;
-        };
+    app.directive('itemPanels', function(){
+            return{
+                restrict: 'E',
+                templateUrl: 'templates/item-panels.html',
+                controller: function(){
+                    this.tab = 1;
 
-        this.isTabSelected = function(checkTab){
-            return this.tab === checkTab;
+                    this.selectTab = function(setTab){
+                        this.tab = setTab;
+                    };
+
+                    this.isTabSelected = function(checkTab){
+                        return this.tab === checkTab;
+                    };
+                },
+                controllerAs: 'panels'
+            };
+    });
+
+    app.directive('itemTitle', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'templates/item-title.html'
+            // template: '{{item.name}} <span class="small">{{item.release | date:"mediumDate"}}</span>'
         };
     });
 
@@ -29,7 +45,7 @@
             gross: 1518.6,
             release: new Date('2012-05-04'),
             inCollection: true,
-            shortDescription: 'Superheros destroy city while fighthing a Norse god and some aliensl',
+            shortDescription: 'Superheros destroy city while fighthing a Norse god and some aliens.',
             cast: [
                 { name: "Robert Downey, Jr.", character: "Tony Stark / Iron Man" },
                 { name: "Chris Evans", character: "Steve Rogers / Captain America" },

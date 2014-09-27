@@ -1,0 +1,17 @@
+<ul class='nav nav-tabs'>
+    <li ng-class="{active:panels.isTabSelected(1)}"><a href ng-click="panels.selectTab(1)">Description</a></li>
+    <li ng-class="{active:panels.isTabSelected(2)}"><a href ng-click="panels.selectTab(2)">Cast</a></li>
+</ul>
+<div class="panels" ng-show="panels.isTabSelected(1)">
+    <h4>Description</h4>
+    <blockquote>{{item.longDescription}}</blockquote>
+</div>
+<div class="panels" ng-show="panels.isTabSelected(2)">
+    <h4>Cast</h4>
+    <table class='table'>
+        <tr ng-repeat="member in item.cast">
+            <td>{{member.name}}</td>
+            <td>{{member.character}}</td>
+        </tr>
+    </table>
+</div>
