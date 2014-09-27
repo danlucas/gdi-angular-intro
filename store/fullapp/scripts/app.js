@@ -4,8 +4,19 @@
     app.controller('UserController', function($scope){
         $scope.user = user;
     });
-    app.controller('CollectionController', function($filter){
+    app.controller('CollectionController', function(){
         this.items = movies;
+    });
+    app.controller('PanelController', function(){
+        this.tab = 1;
+
+        this.selectTab = function(setTab){
+            this.tab = setTab;
+        };
+
+        this.isTabSelected = function(checkTab){
+            return this.tab === checkTab;
+        };
     });
 
     var user = {
