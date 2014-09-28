@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="collection">
 <head>
     <meta charset="UTF-8">
     <title>My First Angular App</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 <body>
-    
+    <div ng-controller="UserController">
+        <h1>Hi, {{user.name}}</h1>
+        <h2 class="text-{{user.status}}">Your current status</h2>
+
+    <!-- <input type="text" ng-model="user.status" />
+    <input type="text" ng-model="user.name" /> -->
+
+    </div>
+
+    <div ng-controller="CollectionController">
+        <div ng-repeat="item in items">
+            <item-title></item-title>
+            <h3>Gross: {{item.gross * 1000000 | currency:'$'}}</h3>
+            <div><p>{{item.shortDescription}}</p></div>
+            <h3 ng-show="{{item.inCollection}}">(In Your Collection)</h3>
+            <section ng-controller="PanelController as panel">
+                <ul class='nav nav-tabs'>
+                    <li ng-class="{active:panel.isTabSelected(1)}">
+                        <a href ng-click="panel.selectTab(1)">Description</a>
+                    </li>
+                    <li ng-class="{active:panel.isTabSelected(2)}"><a href ng-click="panel.selectTab(2)">Cast</a></li>
+                </ul>
+                <div class="panel" ng-show="panel.isTabSelected(1)">
+                    <h4>Description</h4>
+                    <blockquote>{{item.longDescription}}</blockquote>
+                </div>
+                <div class="panel" ng-show="panel.isTabSelected(2)">
+                    <h4>Cast</h4>
+                    <table class='table'>
+                        <tr ng-repeat="member in item.cast">
+                            <td>{{member.name}}</td>
+                            <td>{{member.character}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+    </div>
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
